@@ -2,3 +2,308 @@
     margin: 0;
     padding: 0;
 }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    height: 100vh;
+    padding: 71px 250px 48px 250px;
+    background-image: url("../images/header-background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+header .header_idle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .header_idle .header_idle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 71px;
+}
+
+header .header_idle .header_idle-content nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .header_idle .header_idle-content nav .social-network img {
+    cursor: pointer;
+}
+
+header .header_idle .header_idle-content nav .languages {
+    display: flex;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+header .header_idle .header_idle-content .header_idle-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+header .header_idle .header_idle-content .header_idle-logo .logo-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header .header_idle .arrow-down {
+    width: 60px;
+    cursor: pointer;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs .aboutUs_title {
+    background: #131313;
+    padding: 23px 0 23px 250px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.aboutUs .aboutUs_title .aboutUs_title-story {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.aboutUs .aboutUs_title .aboutUs_title-slash {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.aboutUs .aboutUs_title .aboutUs_title-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.aboutUs .aboutUs_idle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    padding: 100px 250px 100px 250px;
+}
+
+.aboutUs .aboutUs_idle .aboutUs_idle_content .aboutUs_idle_content-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 600px;
+}
+
+.aboutUs .aboutUs_idle .aboutUs_idle_content .aboutUs_idle_content-text font {
+    font-weight: 700;
+}
+
+.aboutUs .aboutUs_idle nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "line-li about-li" ". portfolio-li" ". services-li" ". contact-li" ". news-li";
+}
+
+.aboutUs .aboutUs_idle nav li {
+    list-style-type: none;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #C9C9C9;
+}
+
+.aboutUs .aboutUs_idle nav .line-li {
+    grid-area: line-li;
+}
+
+.aboutUs .aboutUs_idle nav .about-li {
+    grid-area: about-li;
+    font-weight: 700;
+    color: white;
+}
+
+.aboutUs .aboutUs_idle nav .portfolio-li {
+    grid-area: portfolio-li;
+}
+
+.aboutUs .aboutUs_idle nav .services-li {
+    grid-area: services-li;
+}
+
+.aboutUs .aboutUs_idle nav .contact-li {
+    grid-area: contact-li;
+}
+
+.aboutUs .aboutUs_idle nav .news-li {
+    grid-area: news-li;
+}
