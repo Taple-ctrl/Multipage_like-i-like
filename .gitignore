@@ -5,3 +5,4 @@ src/assets/scss/style.scss
 src/assets/js/main.js
 package.json
 package-lock.json
+src/assets/js/languages.js
