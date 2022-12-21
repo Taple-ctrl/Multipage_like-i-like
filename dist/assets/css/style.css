@@ -350,7 +350,15 @@ header .header_idle .arrow-down {
     text-transform: uppercase;
 }
 
+.portfolio .portfolio_idle {
+    background: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .portfolio .portfolio_idle .portfolio_idle-list {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -358,6 +366,19 @@ header .header_idle .arrow-down {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "portfolio_idle-list--box1 portfolio_idle-list--box2 portfolio_idle-list--box3 portfolio_idle-list--box4" "portfolio_idle-list--box5 portfolio_idle-list--box6 portfolio_idle-list--box7 portfolio_idle-list--box8";
+}
+
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--hover--text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--hover--text font {
+    font-weight: 700;
 }
 
 .portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box1 {
@@ -385,29 +406,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box1 .portfolio_idle-list--hover1 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box2 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box2 {
     position: relative;
     grid-area: portfolio_idle-list--box2;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box2 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box2 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box2:hover .portfolio_idle-list--hover2 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box2:hover .portfolio_idle-list--hover2 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box2 .portfolio_idle-list--hover2 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box2 .portfolio_idle-list--hover2 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -418,29 +431,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box2 .portfolio_idle-list--hover2 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box3 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box3 {
     position: relative;
     grid-area: portfolio_idle-list--box3;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box3 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box3 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box3:hover .portfolio_idle-list--hover3 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box3:hover .portfolio_idle-list--hover3 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box3 .portfolio_idle-list--hover3 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box3 .portfolio_idle-list--hover3 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -451,29 +456,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box3 .portfolio_idle-list--hover3 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box4 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box4 {
     position: relative;
     grid-area: portfolio_idle-list--box4;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box4 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box4 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box4:hover .portfolio_idle-list--hover4 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box4:hover .portfolio_idle-list--hover4 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box4 .portfolio_idle-list--hover4 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box4 .portfolio_idle-list--hover4 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -484,29 +481,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box4 .portfolio_idle-list--hover4 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box5 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box5 {
     position: relative;
     grid-area: portfolio_idle-list--box5;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box5 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box5 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box5:hover .portfolio_idle-list--hover5 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box5:hover .portfolio_idle-list--hover5 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box5 .portfolio_idle-list--hover5 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box5 .portfolio_idle-list--hover5 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -517,29 +506,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box5 .portfolio_idle-list--hover5 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box6 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box6 {
     position: relative;
     grid-area: portfolio_idle-list--box6;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box6 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box6 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box6:hover .portfolio_idle-list--hover6 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box6:hover .portfolio_idle-list--hover6 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box6 .portfolio_idle-list--hover6 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box6 .portfolio_idle-list--hover6 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -550,29 +531,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box6 .portfolio_idle-list--hover6 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box7 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box7 {
     position: relative;
     grid-area: portfolio_idle-list--box7;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box7 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box7 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box7:hover .portfolio_idle-list--hover7 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box7:hover .portfolio_idle-list--hover7 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box7 .portfolio_idle-list--hover7 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box7 .portfolio_idle-list--hover7 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -583,29 +556,21 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box7 .portfolio_idle-list--hover7 .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.portfolio .portfolio_idle .portfolio_idle-list--box8 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box8 {
     position: relative;
     grid-area: portfolio_idle-list--box8;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box8 img {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box8 img {
     width: 100%;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box8:hover .portfolio_idle-list--hover8 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box8:hover .portfolio_idle-list--hover8 {
     display: flex;
     cursor: pointer;
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box8 .portfolio_idle-list--hover8 {
+.portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--box8 .portfolio_idle-list--hover8 {
     display: none;
     align-items: center;
     justify-content: center;
@@ -616,10 +581,18 @@ header .header_idle .arrow-down {
     background: linear-gradient(0deg, rgba(19, 19, 19, 0.9), rgba(19, 19, 19, 0.9));
 }
 
-.portfolio .portfolio_idle .portfolio_idle-list--box8 .portfolio_idle-list--hover8 .portfolio_idle-list--hover--text {
+.portfolio .portfolio_idle .portfolio_idle-btn {
+    cursor: pointer;
+    margin: 40px 0;
+    width: 319px;
+    height: 52px;
+    background: #131313;
     font-family: "Futura PT";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
 }
