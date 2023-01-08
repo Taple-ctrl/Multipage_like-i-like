@@ -2,95 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+    list-style-type: none;
 }
 
 article,
@@ -138,14 +50,33 @@ table {
     border-spacing: 0;
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
+.category_title {
+    background: #131313;
+    padding: 1.6vw 0 1.6vw 17.5vw;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-weight: 700;
+    font-size: 2.5vw;
+    font-family: "Futura PT";
+    font-style: normal;
+}
+
+.category_title .category_title-story {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+}
+
+.category_title .category_title-text {
+    text-transform: uppercase;
 }
 
 header {
     height: 100vh;
-    padding: 71px 250px 48px 250px;
+    padding: 5vw 17.5vw 3.5vw;
     background-image: url("../images/header-background.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -167,7 +98,7 @@ header .header_idle .header_idle-content {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 71px;
+    gap: 5vw;
 }
 
 header .header_idle .header_idle-content nav {
@@ -186,7 +117,7 @@ header .header_idle .header_idle-content nav .languages {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.7vw;
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
@@ -196,20 +127,19 @@ header .header_idle .header_idle-content .header_idle-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 10vw;
 }
 
 header .header_idle .header_idle-content .header_idle-logo .logo-title {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3.5vw;
     text-align: center;
     color: #FFFFFF;
 }
 
 header .header_idle .arrow-down {
-    width: 60px;
     cursor: pointer;
 }
 
@@ -218,142 +148,63 @@ header .header_idle .arrow-down {
     flex-direction: column;
 }
 
-.aboutUs .aboutUs_title {
-    background: #131313;
-    padding: 23px 0 23px 250px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.aboutUs .aboutUs_title .aboutUs_title-story {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.aboutUs .aboutUs_title .aboutUs_title-slash {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.aboutUs .aboutUs_title .aboutUs_title-text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
-}
-
 .aboutUs .aboutUs_idle {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #202020;
-    padding: 100px 250px 100px 250px;
+    padding: 7vw 13vw;
 }
 
 .aboutUs .aboutUs_idle .aboutUs_idle_content .aboutUs_idle_content-text {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    line-height: 3vw;
+    font-size: 1.7vw;
     color: #FFFFFF;
-    width: 600px;
+    width: 42vw;
 }
 
 .aboutUs .aboutUs_idle .aboutUs_idle_content .aboutUs_idle_content-text font {
     font-weight: 700;
 }
 
-.aboutUs .aboutUs_idle nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 19px;
-    grid-template-areas: "line-li about-li" ". portfolio-li" ". services-li" ". contact-li" ". news-li";
+.aboutUs .aboutUs_idle .right_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
 }
 
-.aboutUs .aboutUs_idle nav li {
+.aboutUs .aboutUs_idle .right_menu li {
     list-style-type: none;
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.7vw;
+    line-height: 2.2vw;
     color: #C9C9C9;
 }
 
-.aboutUs .aboutUs_idle nav li:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.aboutUs .aboutUs_idle nav .line-li {
-    grid-area: line-li;
-}
-
-.aboutUs .aboutUs_idle nav .about-li {
-    grid-area: about-li;
+.aboutUs .aboutUs_idle .right_menu .about-li {
+    position: relative;
     font-weight: 700;
     color: white;
 }
 
-.aboutUs .aboutUs_idle nav .portfolio-li {
-    grid-area: portfolio-li;
-}
-
-.aboutUs .aboutUs_idle nav .services-li {
-    grid-area: services-li;
-}
-
-.aboutUs .aboutUs_idle nav .contact-li {
-    grid-area: contact-li;
-}
-
-.aboutUs .aboutUs_idle nav .news-li {
-    grid-area: news-li;
+.aboutUs .aboutUs_idle .right_menu .about-li::before {
+    content: "";
+    height: 0.2vw;
+    width: 3vw;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -65%;
 }
 
 .portfolio {
     display: flex;
     flex-direction: column;
-}
-
-.portfolio .portfolio_title {
-    background: #131313;
-    padding: 23px 0 23px 250px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.portfolio .portfolio_title .portfolio_title-story {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.portfolio .portfolio_title .portfolio_title-slash {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.portfolio .portfolio_title .portfolio_title-text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
 }
 
 .portfolio .portfolio_idle {
@@ -378,7 +229,7 @@ header .header_idle .arrow-down {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.7vw;
     color: #FFFFFF;
     text-align: center;
 }
@@ -589,214 +440,140 @@ header .header_idle .arrow-down {
 
 .portfolio .portfolio_idle .portfolio_idle-btn {
     cursor: pointer;
-    margin: 40px 0;
-    width: 319px;
-    height: 52px;
+    margin: 2.8vw 0;
+    width: 22vw;
+    height: 3.6vw;
     background: #131313;
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.7vw;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
 }
 
-.services .services_title {
-    background: #131313;
-    padding: 23px 0 23px 250px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.services .services_title .services_title-story {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.services .services_title .services_title-slash {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.services .services_title .services_title-text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
-}
-
 .services .services_idle {
     background-color: #202020;
-    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    padding: 7vw 13vw;
 }
 
-.services .services_idle .container .services_idle-main {
+.services .services_idle .services_idle-position {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content {
+.services .services_idle .services_idle-position .services_idle-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 50px;
+    gap: 3.5vw;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--content {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--content {
     display: flex;
     align-items: center;
-    gap: 20px;
-    border: 3px solid #131313;
-    padding: 20px 40px;
-    width: 700px;
+    gap: 1.4vw;
+    border: 0.2vw solid #131313;
+    padding: 1.5vw 3vw;
+    width: 58vw;
     cursor: pointer;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--content .services_idle-design--text {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--content .services_idle-design--text {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.7vw;
     letter-spacing: 0.155em;
     color: #FFFFFF;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--list {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list {
     background: #131313;
     width: 90%;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--list .container-design {
-    max-width: 590px;
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-design {
+    max-width: 41vw;
     margin: 0 auto;
-    padding: 23px 0;
+    padding: 2vw 0;
     display: none;
     flex-direction: column;
-    gap: 27px;
+    gap: 2.5vw;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid #202020;
-    padding-bottom: 10px;
+    border-bottom: 0.2vw solid #202020;
+    padding-bottom: 0.7vw;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box .services_idle-design-box--text {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box .services_idle-design-box--text {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.7vw;
     color: #FFFFFF;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box .services_idle-design-box--cost {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box .services_idle-design-box--cost {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.7vw;
     color: #FFFFFF;
 }
 
-.services .services_idle .container .services_idle-main .services_idle-content .services_idle-design .services_idle-design--list .container-active {
+.services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-active {
     display: flex;
 }
 
-.services .services_idle .container nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 19px;
-    grid-template-areas: ". about-li" ". portfolio-li" "line-li services-li" ". contact-li" ". news-li";
+.services .services_idle .right_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.58vw;
 }
 
-.services .services_idle .container nav li {
+.services .services_idle .right_menu li {
     list-style-type: none;
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.7vw;
+    line-height: 2.15vw;
     color: #C9C9C9;
 }
 
-.services .services_idle .container nav li:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.services .services_idle .container nav .line-li {
-    grid-area: line-li;
-}
-
-.services .services_idle .container nav .about-li {
-    grid-area: about-li;
-}
-
-.services .services_idle .container nav .portfolio-li {
-    grid-area: portfolio-li;
-}
-
-.services .services_idle .container nav .services-li {
-    grid-area: services-li;
+.services .services_idle .right_menu .services-li {
+    position: relative;
     font-weight: 700;
     color: white;
 }
 
-.services .services_idle .container nav .contact-li {
-    grid-area: contact-li;
-}
-
-.services .services_idle .container nav .news-li {
-    grid-area: news-li;
-}
-
-.contact .contact_title {
-    background: #131313;
-    padding: 23px 0 23px 250px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.contact .contact_title .contact_title-story {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.contact .contact_title .contact_title-slash {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.contact .contact_title .contact_title-text {
-    font-family: "Futura PT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
+.services .services_idle .right_menu .services-li::before {
+    content: "";
+    height: 0.14vw;
+    width: 3vw;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -65%;
 }
 
 .contact .contact_idle {
@@ -804,19 +581,19 @@ header .header_idle .arrow-down {
     justify-content: space-between;
     align-items: center;
     background-color: #202020;
-    padding: 100px 13vw;
+    padding: 7vw 13vw;
 }
 
 .contact .contact_idle .contact_idle-main {
     display: flex;
     flex-direction: column;
-    gap: 47px;
+    gap: 3.26vw;
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-map {
-    width: 55vw;
+    width: 58vw;
     height: 40vh;
-    border: 5px solid #000000;
+    border: 0.35vw solid #000000;
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-map iframe {
@@ -831,34 +608,34 @@ header .header_idle .arrow-down {
 .contact .contact_idle .contact_idle-main .contact_idle-list .contact_idle-info {
     display: flex;
     flex-direction: column;
-    gap: 31px;
+    gap: 2.15vw;
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-list .contact_idle-info .contact_idle-info--box {
     display: flex;
-    gap: 30px;
+    gap: 2.08vw;
     align-items: center;
-    padding-left: 30px;
-    width: 24vw;
+    padding-left: 2.08vw;
+    width: 27vw;
     height: 6vh;
     background: #131313;
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.7vw;
     color: white;
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-list .contact_idle-input {
     display: flex;
     flex-direction: column;
-    gap: 31px;
+    gap: 2.15vw;
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-list .contact_idle-input .contact_idle-input--name {
-    width: 24vw;
+    width: 27vw;
     height: 6vh;
-    padding-left: 30px;
+    padding-left: 2.08vw;
     background-color: white;
 }
 
@@ -869,8 +646,8 @@ header .header_idle .arrow-down {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.7vw;
+    line-height: 2.15vw;
     color: #202020;
 }
 
@@ -887,9 +664,9 @@ header .header_idle .arrow-down {
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-list .contact_idle-input .contact_idle-input--number {
-    width: 24vw;
+    width: 27vw;
     height: 6vh;
-    padding-left: 30px;
+    padding-left: 2.08vw;
     background-color: white;
 }
 
@@ -900,8 +677,8 @@ header .header_idle .arrow-down {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.7vw;
+    line-height: 2.15vw;
     color: #202020;
 }
 
@@ -918,14 +695,14 @@ header .header_idle .arrow-down {
 }
 
 .contact .contact_idle .contact_idle-main .contact_idle-list .contact_idle-input .contact_idle-btn {
-    width: 24vw;
+    width: 27vw;
     height: 6vh;
     background: #55B055;
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.7vw;
+    line-height: 2.15vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -933,84 +710,66 @@ header .header_idle .arrow-down {
     color: #FFFFFF;
 }
 
-.contact .contact_idle nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 19px;
-    grid-template-areas: ". about-li" ". portfolio-li" ". services-li" "line-li contact-li" ". news-li";
+.contact .contact_idle .right_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.56vw;
 }
 
-.contact .contact_idle nav li {
+.contact .contact_idle .right_menu li {
     list-style-type: none;
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.7vw;
+    line-height: 2.15vw;
     color: #C9C9C9;
 }
 
-.contact .contact_idle nav li:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.contact .contact_idle nav .line-li {
-    grid-area: line-li;
-}
-
-.contact .contact_idle nav .about-li {
-    grid-area: about-li;
-}
-
-.contact .contact_idle nav .portfolio-li {
-    grid-area: portfolio-li;
-}
-
-.contact .contact_idle nav .services-li {
-    grid-area: services-li;
-}
-
-.contact .contact_idle nav .contact-li {
-    grid-area: contact-li;
+.contact .contact_idle .right_menu .contact-li {
+    position: relative;
     font-weight: 700;
     color: white;
 }
 
-.contact .contact_idle nav .news-li {
-    grid-area: news-li;
+.contact .contact_idle .right_menu .contact-li::before {
+    content: "";
+    height: 0.14vw;
+    width: 3vw;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -53%;
 }
 
 .news .news_title {
     background: #131313;
-    padding: 23px 0 23px 250px;
+    padding: 1.6vw 0 1.6vw 17.36vw;
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.56vw;
 }
 
 .news .news_title .news_title-story {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.67vw;
 }
 
 .news .news_title .news_title-slash {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.5vw;
 }
 
 .news .news_title .news_title-text {
     font-family: "Futura PT";
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.5vw;
     text-transform: uppercase;
 }
 
@@ -1019,5 +778,114 @@ header .header_idle .arrow-down {
     justify-content: space-between;
     align-items: center;
     background-color: #202020;
-    padding: 100px 13vw;
+    padding: 7vw 13vw;
+}
+
+.news .news_content .news_content-block {
+    position: relative;
+    width: 100%;
+}
+
+.news .news_content .news_content-block .news_arrow-left {
+    position: absolute;
+    top: 30%;
+    left: -8%;
+}
+
+.news .news_content .news_content-block .news_arrow-right {
+    position: absolute;
+    top: 30%;
+    right: -8%;
+}
+
+.news .news_content .news_content-block .news_content-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.news .news_content .news_content-block .news_content-list .news_content-list--box {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    gap: 2.78vw;
+}
+
+.news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.74vw;
+}
+
+.news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content .news_content-list--box---title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7vw;
+    color: #FFFFFF;
+}
+
+.news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content .news_content-list--box---text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 2.15vw;
+    text-align: center;
+    color: #CECECE;
+}
+
+.news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content .news_content-list--box---btn {
+    width: 100%;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.67vw;
+    line-height: 2.15vw;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.69vw 0;
+    color: #FFFFFF;
+}
+
+footer {
+    background: #131313;
+}
+
+footer .footer_list {
+    padding: 5vw 19vw 10vw 11vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer_list nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    color: #B5B5B5;
+}
+
+footer .footer_list .footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    color: #FFFFFF;
+}
+
+.testingclas {
+    width: 2.08vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -6,3 +6,7 @@ src/assets/js/main.js
 package.json
 package-lock.json
 src/assets/js/languages.js
+src/assets/images/footer-logo.svg
+src/assets/images/news-left.svg
+src/assets/images/news-post.png
+src/assets/images/news-right.svg
