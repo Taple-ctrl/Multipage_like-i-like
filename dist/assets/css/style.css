@@ -59,12 +59,12 @@ table {
     gap: 1vw;
     font-weight: 700;
     font-size: 2.5vw;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
 }
 
 .category_title .category_title-story {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -114,7 +114,7 @@ header .header_idle .header_idle-content nav .social-network img {
 
 header .header_idle .header_idle-content nav .languages {
     display: flex;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -131,7 +131,7 @@ header .header_idle .header_idle-content .header_idle-logo {
 }
 
 header .header_idle .header_idle-content .header_idle-logo .logo-title {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 3.5vw;
@@ -157,7 +157,7 @@ header .header_idle .arrow-down {
 }
 
 .aboutUs .aboutUs_idle .aboutUs_idle_content .aboutUs_idle_content-text {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 3vw;
@@ -178,7 +178,7 @@ header .header_idle .arrow-down {
 
 .aboutUs .aboutUs_idle .right_menu li {
     list-style-type: none;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -226,7 +226,7 @@ header .header_idle .arrow-down {
 }
 
 .portfolio .portfolio_idle .portfolio_idle-list .portfolio_idle-list--hover--text {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -444,7 +444,7 @@ header .header_idle .arrow-down {
     width: 22vw;
     height: 3.6vw;
     background: #131313;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.7vw;
@@ -494,7 +494,7 @@ header .header_idle .arrow-down {
 }
 
 .services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--content .services_idle-design--text {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.7vw;
@@ -525,7 +525,7 @@ header .header_idle .arrow-down {
 }
 
 .services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box .services_idle-design-box--text {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -533,7 +533,7 @@ header .header_idle .arrow-down {
 }
 
 .services .services_idle .services_idle-position .services_idle-content .services_idle-design .services_idle-design--list .container-design .services_idle-design-box .services_idle-design-box--cost {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1.7vw;
@@ -552,7 +552,7 @@ header .header_idle .arrow-down {
 
 .services .services_idle .right_menu li {
     list-style-type: none;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -619,7 +619,7 @@ header .header_idle .arrow-down {
     width: 27vw;
     height: 6vh;
     background: #131313;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -643,7 +643,7 @@ header .header_idle .arrow-down {
     width: 100%;
     height: 100%;
     border: 0;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -674,7 +674,7 @@ header .header_idle .arrow-down {
     width: 100%;
     height: 100%;
     border: 0;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -698,7 +698,7 @@ header .header_idle .arrow-down {
     width: 27vw;
     height: 6vh;
     background: #55B055;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.7vw;
@@ -718,7 +718,7 @@ header .header_idle .arrow-down {
 
 .contact .contact_idle .right_menu li {
     list-style-type: none;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7vw;
@@ -752,21 +752,21 @@ header .header_idle .arrow-down {
 }
 
 .news .news_title .news_title-story {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.67vw;
 }
 
 .news .news_title .news_title-slash {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 2.5vw;
 }
 
 .news .news_title .news_title-text {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 2.5vw;
@@ -819,7 +819,7 @@ header .header_idle .arrow-down {
 }
 
 .news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content .news_content-list--box---title {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.7vw;
@@ -827,7 +827,7 @@ header .header_idle .arrow-down {
 }
 
 .news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content .news_content-list--box---text {
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.67vw;
@@ -838,7 +838,7 @@ header .header_idle .arrow-down {
 
 .news .news_content .news_content-block .news_content-list .news_content-list--box .news_content-list--box-content .news_content-list--box---btn {
     width: 100%;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.67vw;
@@ -865,7 +865,7 @@ footer .footer_list nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25vw;
@@ -876,7 +876,7 @@ footer .footer_list .footer_contact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "Futura PT";
+    font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25vw;
